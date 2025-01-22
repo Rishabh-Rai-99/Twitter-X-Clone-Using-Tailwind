@@ -4,98 +4,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="SRt0juOs7sOG4vCNVeL93ipz318e3_ZZ9bEdHqY3p_o" />
     <title>Document</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./src/output.css">
+    <style>
+        *{
+            transition:background-color 0.5s ease,color 0.2s ease;
+        }
+    </style>
 </head>
 
 <body class="bg-black">
     <div class="main-container w-full sm:max-w-[90%] lg:max-w-[80%] m-auto flex xl:justify-normal justify-center">
         <div class="first mx-1 sm:mx-3 w-[10%] xl:w-[25%] sticky top-[0] h-1/2">
-            <img class="w-auto my-3 invert h-4 sm:h-5 mx-auto xl:mx-1 cursor-pointer" src="./images/logo.png" alt="">
+            <img class="w-auto my-3 invert h-4 sm:h-5 mx-auto xl:mx-1 cursor-pointer main-logo" src="./images/logo.png" alt="">
             <ul class="flex flex-col gap-2 sm:gap-3 xl:items-start items-center">
-                <li class="flex items-center cursor-pointer gap-3"><span class="material-symbols-outlined invert text-xl sm:text-3xl xl:text-2xl relative">
+                <li class="flex items-center text-white  cursor-pointer gap-3"><span class="material-symbols-outlined  text-xl sm:text-3xl xl:text-2xl relative">
                     <span>home</span>
-                    <div class="w-2 h-2 rounded-full bg-[#1d9bf0] top-0 left-[60%] absolute invert"></div>
+                    <div class="w-2 h-2 rounded-full bg-[#1d9bf0] top-0 left-[60%] absolute"></div>
                     </span> 
-                    <span class="text-lg font-semibold text-white hidden xl:block" >Home </span> 
+                    <span class="text-lg font-semibold hidden xl:block" >Home </span> 
                 </li>
-                <li class="flex items-center cursor-pointer gap-3">
-                    <span class="material-symbols-outlined invert text-xl sm:text-3xl xl:text-2xl">
+                <li class="flex items-center text-white cursor-pointer gap-3">
+                    <span class="material-symbols-outlined text-xl sm:text-3xl xl:text-2xl">
                         search
                         </span>
-                         <span class="text-lg text-white hidden xl:block" >Explore </span> 
+                         <span class="text-lg  hidden xl:block" >Explore </span> 
                 </li>
-                <li class="flex items-center cursor-pointer gap-3 relative">
-                    <span class="material-symbols-outlined invert text-xl sm:text-3xl xl:text-2xl ">
+                <li class="flex items-center text-white  cursor-pointer gap-3 relative">
+                    <span class="material-symbols-outlined  text-xl sm:text-3xl xl:text-2xl ">
                         <span>notifications</span> 
                         </span>
-                         <span class="text-lg text-white hidden xl:block" >Notifications </span> 
+                         <span class="text-lg hidden xl:block" >Notifications </span> 
                          <div class="rounded-full bg-[#1d9bf0] -top-1 left-[40%] sm:left-[60%] xl:left-[8%] absolute sm:w-7 sm:h-4 w-4 h-3 text-white  flex items-center justify-center text-[8px] sm:text-sm">16</div>
 
                 </li>
-                <li class="flex items-center cursor-pointer gap-3">
-                    <span class="material-symbols-outlined invert text-xl sm:text-3xl xl:text-2xl">
+                <li class="flex items-center text-white  cursor-pointer gap-3">
+                    <span class="material-symbols-outlined  text-xl sm:text-3xl xl:text-2xl">
                         mail
                         </span>
-                         <span class="text-lg text-white hidden xl:block" >Messages </span> 
+                         <span class="text-lg hidden xl:block" >Messages </span> 
                 </li>
-                <li class="flex items-center cursor-pointer gap-3">
-                    <img class="invert w-auto h-4 sm:h-7 xl:h-5" src="./images/xi.svg" alt="">
-                     <span class="text-lg text-white hidden xl:block" >Grok </span> </li>
-                <li class="flex items-center cursor-pointer gap-3">
-                    <span class="material-symbols-outlined invert text-xl sm:text-3xl xl:text-2xl">
+                <li class="flex items-center text-white cursor-pointer gap-3">
+                    <img class="invert grok-img w-auto h-4 sm:h-7 xl:h-5" src="./images/xi.svg" alt="">
+                     <span class="text-lg  hidden xl:block" >Grok </span> </li>
+                <li class="flex items-center text-white cursor-pointer gap-3">
+                    <span class="material-symbols-outlined  text-xl sm:text-3xl xl:text-2xl">
                         bookmark
                         </span>
-                         <span class="text-lg text-white hidden xl:block" >Bookmarks </span> 
+                         <span class="text-lg  hidden xl:block" >Bookmarks </span> 
                 </li>
-                <li class="flex items-center cursor-pointer gap-3">
-                    <span class="material-symbols-outlined invert text-xl sm:text-3xl xl:text-2xl">
+                <li class="flex items-center text-white cursor-pointer gap-3">
+                    <span class="material-symbols-outlined  text-xl sm:text-3xl xl:text-2xl">
                         work
                         </span>
-                         <span class="text-lg text-white hidden xl:block" >Jobs </span> 
+                         <span class="text-lg hidden xl:block" >Jobs </span> 
                 </li>
-                <li class="flex items-center cursor-pointer gap-3">
-                    <span class="material-symbols-outlined invert text-xl sm:text-3xl xl:text-2xl">
+                <li class="flex items-center text-white cursor-pointer gap-3">
+                    <span class="material-symbols-outlined  text-xl sm:text-3xl xl:text-2xl">
                         group
                         </span>
-                         <span class="text-lg text-white hidden xl:block" >Communities </span> 
+                         <span class="text-lg hidden xl:block" >Communities </span> 
                 </li>
-                <li class="flex items-center cursor-pointer gap-3">
-                    <img class="invert w-auto h-4 sm:h-6 xl:h-5" src="./images/logo.png" alt="">
-                         <span class="text-lg text-white hidden xl:block" >Premium </span> 
+                <li class="flex items-center text-white cursor-pointer gap-3 mode-btn">
+                    <span class="material-symbols-outlined text-xl sm:text-3xl xl:text-2xl mode-logo">
+                        light_mode
+                        </span>
+                         <span class="text-lg hidden xl:block mode-btn-text" >Light Mode</span> 
                 </li>
-                <li class="flex items-center cursor-pointer gap-3">
-                    <span class="material-symbols-outlined invert text-xl sm:text-3xl xl:text-2xl">
+                <li class="flex items-center text-white cursor-pointer gap-3">
+                    <span class="material-symbols-outlined text-xl sm:text-3xl xl:text-2xl">
                         bolt
                         </span>
-                         <span class="text-lg text-white hidden xl:block" >Verified Orgs </span> 
+                         <span class="text-lg hidden xl:block" >Verified Orgs </span> 
                 </li>
-                <li class="flex items-center cursor-pointer gap-3">
-                    <span class="material-symbols-outlined invert text-xl sm:text-3xl xl:text-2xl">
+                <li class="flex items-center text-white cursor-pointer gap-3">
+                    <span class="material-symbols-outlined text-xl sm:text-3xl xl:text-2xl">
                         person
                         </span>
-                     <span class="text-lg text-white hidden xl:block" >Profile </span> 
+                     <span class="text-lg hidden xl:block" >Profile </span> 
                 </li>
-                <li class="flex items-center cursor-pointer gap-3">
-                    <span class="material-symbols-outlined invert text-xl sm:text-3xl xl:text-2xl">
+                <li class="flex items-center text-white cursor-pointer gap-3">
+                    <span class="material-symbols-outlined text-xl sm:text-3xl xl:text-2xl">
                         more_horiz
-                        </span> <spa hidden xl:blockn class="text-lg text-white hidden xl:block" >More </span> 
+                        </span> <spa hidden xl:blockn class="text-lg hidden xl:block" >More </span> 
                 </li>
             </ul>
             <button class="p-2  font-semibold m-auto bg-white rounded-full block my-3 xl:hidden">
                 <img class="sm:w-6 w-3 sm:h-6 h-3" src="./images/feather_post.png" alt="">
             </button>
-            <button class="py-2 px-20 font-semibold m-auto mt-5 bg-white rounded-full hidden xl:block">Post</button>
+            <button class="py-2 px-20 font-semibold m-auto mt-5 bg-white rounded-full hidden xl:block post-btn">Post</button>
             <div class=" profile py-1 md:mr-3 flex md:my-5 justify-center m-0 md:ml-4 items-center gap-2 cursor-pointer rounded-full hover:bg-[#232c35] bg-opacity-[100%]">
                 <img class="rounded-full sm:w-10 sm:h-10 w-7 h-7" src="https://pbs.twimg.com/profile_images/1761402458633629696/QRylmc4j_x96.jpg" alt="">
                 <div class=" items-center justify-between gap-5 hidden xl:flex">
-                <div class="text-white">
+                <div class="text-white profile-dets">
                     <h4 class="font-bold">Rishabh</h4>
                     <p class="text-[#71767b]">@_Rishabh_Code</p>
                 </div>
-                <span class="material-symbols-outlined invert">
+                <span class="material-symbols-outlined invert more-logo">
                     more_horiz
                     </span>
             </div>
@@ -153,7 +159,7 @@
                             location_on
                             </span></li>
                         </div>
-                            <button class="py-1 px-5 font-semibold mb-0 m-auto mr-0 text-black bg-white rounded-full">Post</button>
+                            <button class="py-1 px-5 font-semibold mb-0 m-auto mr-0 text-black bg-white rounded-full post-btn-2">Post</button>
                     </ul>
                 </div>
             </div>
@@ -574,7 +580,7 @@
             <div class="subscribe rounded-xl mt-6 p-2 text-white border-[#71767b] border-[0.1px] border-opacity-50">
                 <h3 class="font-bold text-lg pb-2">Subscribe to Premium</h3>
                 <p class="pb-3 text-sm">Subscribe to unlock new features and if eligible, receive a share of revenue.</p>
-                <button class="py-1 px-5 font-semibold mb-0 m-auto mr-0 text-white bg-[#1d9bf0] rounded-full">Subscribe</button>
+                <button class="py-1 px-5 font-semibold mb-0 m-auto mr-0 text-white bg-[#1d9bf0] rounded-full subscribe-btn">Subscribe</button>
             </div>
             <div class=" 2xl:relative sticky top-0 pb-20">
             <div class="whats-happening  mt-6 p-2 text-white rounded-xl flex flex-col gap-3 border-[#71767b] border-[0.1px] border-opacity-50">
@@ -642,7 +648,7 @@
                         <p class="text-[#71767b]">@jfrog</p>
                     </div>
                 </div>
-                <button class="py-1 px-5 font-semibold my-0 mb-0 m-auto mr-0 text-black bg-white rounded-full">Follow</button>
+                <button class="py-1 px-5 font-semibold my-0 mb-0 m-auto mr-0 text-black bg-white rounded-full  follow-btn">Follow</button>
                 </div>
                 <div class="profile py-1 flex my-1  items-center justify-around cursor-pointer rounded-full">
                     <div class="flex gap-2 items-center">
@@ -652,7 +658,7 @@
                         <p class="text-[#71767b]">@inPlainEngHQ</p>
                     </div>
                 </div>
-                <button class="py-1 px-5 font-semibold my-0 mb-0 m-auto mr-0 text-black bg-white rounded-full">Follow</button>
+                <button class="py-1 px-5 font-semibold my-0 mb-0 m-auto mr-0 text-black bg-white rounded-full follow-btn">Follow</button>
                 </div>
                 <div class="profile py-1 flex my-1  items-center justify-around cursor-pointer rounded-full">
                     <div class="flex gap-2 items-center">
@@ -662,7 +668,7 @@
                         <p class="text-[#71767b]">@Damn_coder</p>
                     </div>
                 </div>
-                <button class="py-1 px-5 font-semibold mb-0 m-auto mr-0 text-black bg-white rounded-full">Follow</button>
+                <button class="py-1 px-5 font-semibold mb-0 m-auto mr-0 text-black bg-white rounded-full follow-btn">Follow</button>
                 </div>
                 <p class="text-[#1d9bf0] text-lg ml-2">Show more</p>
             </div>
@@ -684,6 +690,7 @@
         
     </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
